@@ -1,6 +1,6 @@
 <?php
 
-namespace Edionme\AnchorTextChecker\Tests;
+namespace Edionme\AnchorTextChecker\Test;
 
 use Edionme\AnchorTextChecker\AnchorTextChecker;
 use Exception;
