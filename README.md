@@ -32,7 +32,7 @@ AnchorTextChecker::crawl('https://edionme.com', [
 **Example Return**
 ```php
 [
-    {
+    [
         html: "<a class="link mr-3 text-gray-600 hover:text-blue-800" target="_blank" href="twitter.com/edionmelarosa">
                         <i class="fab fa-twitter"></i>
                     </a>",
@@ -40,8 +40,8 @@ AnchorTextChecker::crawl('https://edionme.com', [
         rel: null,
         nofollow: false,
         anchor_text: "",
-    },
-    {
+    ],
+    [
         html: "<a class="link mr-3 text-gray-600 hover:text-blue-800" target="_blank" rel="nofollow" href="https://github.com/edionmelarosa">
                         <i class="fab fa-github"></i>
                     </a>",
@@ -49,7 +49,7 @@ AnchorTextChecker::crawl('https://edionme.com', [
         rel: "nofollow",
         nofollow: 1,
         anchor_text: "",
-    },
+    ],
 ]
 ```
 
