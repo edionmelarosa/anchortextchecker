@@ -1,16 +1,16 @@
-## Anchor Text Checker
+# Anchor Text Checker
 
-### Description
+## Description
 This package allows to crawl a website and check anchor text and nofollow.
-Under the hood, this package uses `symfony/dom-crawler` package for crawling HTML dom.
+Under the hood, this package uses [symfony/dom-crawler](https://symfony.com/doc/current/components/dom_crawler.html) and [symfony/css-selector](https://symfony.com/doc/current/components/css_selector.html) packages for crawling HTML dom.
 
-### Installation
+## Installation
 This package can be installed via composer
 ```php
 edionme/anchortextchecker
 ```
 
-### Usage
+## Usage
 AnchorTextChecker can be use like this:
 ```php
 AnchorTextChecker::crawl(url, linkingUrls)
